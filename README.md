@@ -13,7 +13,7 @@ m_rawinput "1"
 m_mouseaccel1 "0"
 m_mouseaccel2 "0"
 m_mousespeed "0"
-sensitivity "1.70"
+sensitivity "1.75"
 zoom_sensitivity_ratio_mouse "1.0"
 
 //chat
@@ -46,6 +46,9 @@ bind mwheeldown +jump
 //viewmodel
 viewmodel_fov 60; viewmodel_offset_x 2; viewmodel_offset_y 1.5; viewmodel_offset_z -1; viewmodel_presetpos 0; cl_viewmodel_shift_left_amt 1.5; cl_viewmodel_shift_right_amt 0.75; viewmodel_recoil 0; cl_righthand 1;
 
+//Weaponmovement
+cl_viewmodel_shift_left_amt 1.5;cl_viewmodel_shift_right_amt 0.75;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1
+
 //crosshair
 cl_crosshairstyle 4;cl_crosshairsize 1.5;cl_crosshairgap -2;cl_crosshairthickness 1;cl_crosshair_drawoutline 0;cl_crosshairdot 0;cl_crosshaircolor 1;cl_crosshairusealpha 1;cl_crosshairalpha 255;cl_crosshairgap_useweaponvalue 0;cl_crosshair_t 0
 
@@ -56,4 +59,4 @@ cl_bob_lower_amt 5; cl_bobamt_lat 0.1; cl_bobamt_vert 0.1; cl_bobcycle 0.98;
 bind "W" "+forward; r_cleardecals;cl_showloadout 1"
 
 //game launch 
-//-novid -refresh 240 -high +rate 786432 - tickrate 128 +cl_updaterate 128 +fps_max 400 +cl_forcepreload 1 +exec autoexec -language
+//-novid -refresh 240 -high +rate 786432 -tickrate 128 +cl_updaterate 128 +fps_max 400 +cl_forcepreload 1 +exec autoexec -language
