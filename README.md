@@ -60,3 +60,4 @@ bind "W" "+forward; r_cleardecals;cl_showloadout 1"
 
 //game launch 
 //-novid -refresh 240 -high +rate 786432 -tickrate 128 +cl_updaterate 128 +fps_max 400 +cl_forcepreload 1 +exec autoexec -language
+ 
