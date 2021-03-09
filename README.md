@@ -47,7 +47,7 @@ bind mwheeldown +jump
 viewmodel_fov 60; viewmodel_offset_x 2; viewmodel_offset_y 1.5; viewmodel_offset_z -1; viewmodel_presetpos 0; cl_viewmodel_shift_left_amt 1.5; cl_viewmodel_shift_right_amt 0.75; viewmodel_recoil 0; cl_righthand 1;
 
 //Weaponmovement
-cl_viewmodel_shift_left_amt 1.5;cl_viewmodel_shift_right_amt 0.75;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1
+cl_viewmodel_shift_left_amt 1.5;cl_viewmodel_shift_right_amt 0.75;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.
 
 //crosshair
 cl_crosshairstyle 4;cl_crosshairsize 1.5;cl_crosshairgap -2;cl_crosshairthickness 1;cl_crosshair_drawoutline 0;cl_crosshairdot 0;cl_crosshaircolor 1;cl_crosshairusealpha 1;cl_crosshairalpha 255;cl_crosshairgap_useweaponvalue 0;cl_crosshair_t 0
