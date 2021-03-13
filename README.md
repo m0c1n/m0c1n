@@ -13,7 +13,7 @@ m_rawinput "1"
 m_mouseaccel1 "0"
 m_mouseaccel2 "0"
 m_mousespeed "0"
-sensitivity "1.75"
+sensitivity "1.70"
 zoom_sensitivity_ratio_mouse "1.0"
 
 //chat
