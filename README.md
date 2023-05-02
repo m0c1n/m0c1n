@@ -1,21 +1,20 @@
 //Radar 
-cl_radar_scale 0.4
-
-//Hubedgepositions
-safezonex 0.85; safezoney 0.9
-
-//hudscaling 
-hud_scaling 0.9
+bind "mouse4" "cl_radar_scale 0.45"; bind "mouse5" "cl_radar_scale 1"
 
 //radaralwayscenter
 cl_radar_always_centered 0
 
-//hudradarscale
-cl_hud_radar_scale 1.1
+//hubcolor
+cl_hud_color 1
 
-//teamchatbind
-bind "enter" "messagemode2"
-unbind "u"
+//hudradarscale
+cl_hud_radar_scale 1
+
+//Hubedgepositions
+safezonex 0.87; safezoney 0.95
+
+//hudscaling 
+hud_scaling 0.95
 
 //leftrightmoving
 bind "leftarrow" +left
@@ -33,11 +32,30 @@ m_rawinput "1"
 m_mouseaccel1 "0"
 m_mouseaccel2 "0"
 m_mousespeed "0"
-sensitivity "1.60"
+sensitivity "1.5"
 zoom_sensitivity_ratio_mouse "1.0"
 
 //chat
 bind "pgdn" "say_team I'm deaf ears broken - no headphone or microphone. Please share info in team chat in CS:GO, if we want a successful match."
+
+//teamchatbindvv
+bind "enter" "messagemode2"
+unbind "u"
+
+//Flash
+bind "c" "say_team FLASH INCOMING"
+
+//Flashme
+bind "v" "say_team FLASH ME PLS"
+
+//reportradio
+bind "q" "radio3"
+
+//normalradio
+bind "z" "radio"
+
+//radialradio
+bind "x" "+radialradio"
 
 //buy binds
 bind "kp_ins" "buy p250"
@@ -63,32 +81,20 @@ alias "+jumpthrow" "+jump;-attack"; alias "-jumpthrow" "-jump";bind "alt" "+jump
 //jump+mouse scroll
 bind mwheeldown +jump
 
-//bindmolo
-bind "c" "use weapon_molotov;use weapon_incgrenade"
-
-//bindHE
-bind "v" "use weapon_hegrenade"
-
-//bindFlash
-bind "mouse4" "use weapon_flashbang"
-
-//bindSmoke
-bind "mouse5" "use weapon_smokegrenade"
-
 //viewmodel
-viewmodel_fov 60; viewmodel_offset_x 2; viewmodel_offset_y 1.5; viewmodel_offset_z -1; viewmodel_presetpos 0; cl_viewmodel_shift_left_amt 1.5; cl_viewmodel_shift_right_amt 0.75; viewmodel_recoil 0; cl_righthand 1;
+viewmodel_fov 65; viewmodel_offset_x 2; viewmodel_offset_y 1.5; viewmodel_offset_z -1; viewmodel_presetpos 0; cl_viewmodel_shift_left_amt 1.5; cl_viewmodel_shift_right_amt 0.75; viewmodel_recoil 0; cl_righthand 1;
 
 //Weaponmovement
 cl_viewmodel_shift_left_amt 1.5;cl_viewmodel_shift_right_amt 0.75;viewmodel_recoil 0;cl_bob_lower_amt 5;cl_bobamt_lat 0.1;cl_bobamt_vert 0.1
 
 //crosshair
-cl_crosshairstyle 4;cl_crosshairsize 1.5;cl_crosshairgap -2;cl_crosshairthickness 1;cl_crosshair_drawoutline 0;cl_crosshairdot 0;cl_crosshaircolor 1;cl_crosshairusealpha 1;cl_crosshairalpha 255;cl_crosshairgap_useweaponvalue 0;cl_crosshair_t 0
+apply_crosshair_code <CSGO-Vyfxi-VdJUz-bGwRx-mKUA2-hif4D>
 
 //cl_bob
-cl_bob_lower_amt 5; cl_bobamt_lat 0.1; cl_bobamt_vert 0.1; cl_bobcycle 0.98;
+cl_bob_lower_amt 5; cl_bobamt_lat 0.33; cl_bobamt_vert 0.14; cl_bobcycle 0.98;
 
 //cleardecals showloadout
 bind "W" "+forward; r_cleardecals;cl_showloadout 1"
 
 //game launch 
-//-novid -freq 240 -tickrate 128 +fps_max 400 -console -language bananagaming
+//-novid -freq 240 -tickrate 128 +fps_max 500 -console -language bananagaming +exec am0c1n
